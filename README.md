@@ -10,7 +10,7 @@ pingup-php is designed to be as easy as possible to use.  First, include the `pi
 require_once("pingup.class.php");
 ```
 
-Now you must obtain an access token.  See the documentation for instructions.  Once you have a valid token, you can then create a new `pingup` object for future API calls.  Leave the second constructor argument blank to make all further calls in the live API environment, or pass in true to use the sandboxed environment (where no actual appointments can be booked).
+Now you must obtain an access token.  See the [documentation]("https://github.com/JackStoneDev/pingup-php/blob/master/methods.md#generating-an-access-token") for instructions.  Once you have a valid token, you can then create a new `pingup` object for future API calls.  Leave the second constructor argument blank to make all further calls in the live API environment, or pass in true to use the sandboxed environment (where no actual appointments can be booked).
 
 ```php
 // Create a pingup object that makes requests in the live environment
@@ -19,7 +19,7 @@ $pingup = new pingup("YOUR-ACCESS-TOKEN");
 $pingup = new pingup("YOUR-ACCESS-TOKEN", true);
 ```
 
-And there you have it! You may now call any method from the wrapper that you would like.  For more comprehensive explanations, see the documentation.
+And there you have it! You may now call any method from the wrapper that you would like.  For more comprehensive explanations, head on over to the [documentation](https://github.com/JackStoneDev/pingup-php/blob/master/methods.md).
 
 ## License
 

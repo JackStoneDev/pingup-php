@@ -48,7 +48,7 @@ pingup::refreshToken("YOUR-REFRESH-TOKEN", "YOUR-API-SECRET");
 pingup::refreshToken("YOUR-REFRESH-TOKEN", "YOUR-API-SECRET", true);
 ```
 
-**Response example:**
+**Example response:**
 
 ```json
 {

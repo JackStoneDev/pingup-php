@@ -19,7 +19,7 @@ $pingup = new pingup("YOUR-ACCESS-TOKEN");
 $pingup = new pingup("YOUR-ACCESS-TOKEN", true);
 ```
 
-And there you have it! You may now call any method from the wrapper that you would like.  For more comprehensive explanations, head on over to the [documentation](https://github.com/JackStoneDev/pingup-php/blob/master/methods.md).  You can also just check the well-documented source.
+And there you have it! You may now call any method from the wrapper that you would like.  For more comprehensive explanations, sample code/responses, and more, head on over to the [documentation](https://github.com/JackStoneDev/pingup-php/blob/master/methods.md).  You can also just check the well-documented source.
 
 ##Issues
 
@@ -27,7 +27,7 @@ And there you have it! You may now call any method from the wrapper that you wou
 
 ##License
 
-pingup-php is licensed under a MIT license.
+pingup-php is licensed under the MIT license.
 
 Copyright (c) 2014 Jack Stone.
 
